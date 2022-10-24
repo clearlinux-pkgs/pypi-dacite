@@ -4,7 +4,7 @@
 #
 Name     : pypi-dacite
 Version  : 1.6.0
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/f9/bf/3f0912b4cfd861cd0fb7278c2b8d5bfb0c613ec1b7922e25e4115287b73a/dacite-1.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f9/bf/3f0912b4cfd861cd0fb7278c2b8d5bfb0c613ec1b7922e25e4115287b73a/dacite-1.6.0.tar.gz
 Summary  : Simple creation of data classes from dictionaries.
