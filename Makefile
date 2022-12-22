@@ -1,5 +1,5 @@
 PKG_NAME := pypi-dacite
-URL = https://files.pythonhosted.org/packages/f9/bf/3f0912b4cfd861cd0fb7278c2b8d5bfb0c613ec1b7922e25e4115287b73a/dacite-1.6.0.tar.gz
+URL = https://files.pythonhosted.org/packages/35/3f/75b43c211d60590a25989fee082147cf40842ce583125c2583f65bde4399/dacite-1.7.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
