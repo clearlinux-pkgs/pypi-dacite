@@ -6,10 +6,10 @@
 # autospec commit: 94c6be0
 #
 Name     : pypi-dacite
-Version  : 1.9.1
-Release  : 34
-URL      : https://files.pythonhosted.org/packages/e7/b2/c6dcb42ed736870f147c27a43e23cdd0c485268855eda0dfea873a4fa031/dacite-1.9.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/e7/b2/c6dcb42ed736870f147c27a43e23cdd0c485268855eda0dfea873a4fa031/dacite-1.9.1.tar.gz
+Version  : 1.9.2
+Release  : 35
+URL      : https://files.pythonhosted.org/packages/55/a0/7ca79796e799a3e782045d29bf052b5cde7439a2bbb17f15ff44f7aacc63/dacite-1.9.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/55/a0/7ca79796e799a3e782045d29bf052b5cde7439a2bbb17f15ff44f7aacc63/dacite-1.9.2.tar.gz
 Summary  : Simple creation of data classes from dictionaries.
 Group    : Development/Tools
 License  : MIT
@@ -52,10 +52,10 @@ python3 components for the pypi-dacite package.
 
 
 %prep
-%setup -q -n dacite-1.9.1
-cd %{_builddir}/dacite-1.9.1
+%setup -q -n dacite-1.9.2
+cd %{_builddir}/dacite-1.9.2
 pushd ..
-cp -a dacite-1.9.1 buildavx2
+cp -a dacite-1.9.2 buildavx2
 popd
 
 %build
@@ -63,7 +63,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1738197906
+export SOURCE_DATE_EPOCH=1738767737
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
